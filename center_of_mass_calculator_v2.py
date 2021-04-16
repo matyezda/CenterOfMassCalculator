@@ -199,11 +199,12 @@ n = int(input("How many bodies are there?"))
 
 print("Welcome to Center of Mass Calculator v2")
 
+data = []
+
 for i in range (0, n):
     choice()
     j = i + 1
     # putting the data into a matrix
-    data = []
     body = [area, xf, yf, areaxf, areayf]
     data.append(body)
     print("Body number: ", j, " ", data[i])
